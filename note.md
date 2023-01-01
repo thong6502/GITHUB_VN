@@ -40,3 +40,5 @@ remote : những dữ liệu nằm trên 1 sever khác
 - git branch -d ten_branch : xóa đi branch
 
 - git push duong_huong_dan ten_branch: đẩy local repo lên remote repo
+
+- git remote add origin duong_huong_dan : đường hướng dẫn này có tên là 'origin'

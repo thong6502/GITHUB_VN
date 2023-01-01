@@ -4,7 +4,11 @@ Repository (Repo) : hiện tại thư mục dự án của chúng ta mang tên G
 
 Brand (cành ,  nhánh) : 1 dự án có nhiều cành khác nhau và cành mặc định của chúng là ' master '
 
-Conflict (Xung đột) : 
+Conflict (Xung đột) 
+
+local (địa phương) : những dữ liệu nằm trên máy tính của chúng ta
+
+remote : những dữ liệu nằm trên 1 sever khác
 
 # Commands // lenh
 
@@ -34,3 +38,5 @@ Conflict (Xung đột) :
 - git merge ten_cac_branch : tổng hợp các branch với nhau
 
 - git branch -d ten_branch : xóa đi branch
+
+- git push duong_huong_dan ten_branch: đẩy local repo lên remote repo

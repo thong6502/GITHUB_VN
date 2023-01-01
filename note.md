@@ -21,9 +21,14 @@ Brand (cành ,  nhánh) : 1 dự án có nhiều cành khác nhau và cành mặ
 
 - git log --oneline : giống git log nhưng nhìn gọn hơn 
 
-- git checkout ' branch name ' : trở lại thời điểm ban đầu hoặc ' git check out id_commit'
+- git checkout ' branch name ' : trở lại branch
+
+- git check out id_commit : trở lại thời điểm ban đầu
 
 - git branch : thấy được cành hiện tại
 
 - git checkout -b {ten_branch} : để tạo ra 1 branch mới 
 
+- git merge ten_cac_branch : tổng hợp các branch với nhau
+
+- git branch -d ten_branch : xóa đi branch

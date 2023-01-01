@@ -44,3 +44,9 @@ remote : những dữ liệu nằm trên 1 sever khác
 - git remote add origin duong_huong_dan : đường hướng dẫn này có tên là 'origin'
 
 - git clone duong_huong_dan : tải thư mục trên github về
+
+- git push -u origin name_branch : đẩy branch lên github
+
+- git fetch origin 
+- git checkout -b name_branch origin/name_branch 
+

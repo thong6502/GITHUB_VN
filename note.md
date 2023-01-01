@@ -4,6 +4,8 @@ Repository (Repo) : hiện tại thư mục dự án của chúng ta mang tên G
 
 Brand (cành ,  nhánh) : 1 dự án có nhiều cành khác nhau và cành mặc định của chúng là ' master '
 
+Conflict (Xung đột) : 
+
 # Commands // lenh
 
 - git init : lệnh này làm Repository của chúng ta trở thành 1 " git Repository "

@@ -21,32 +21,34 @@ remote : những dữ liệu nằm trên 1 sever khác
 
 - git reset : lấy ra file chuẩn bị lưu
 
-- git commit -m 'ghi_chu' : chính thức lưu
+- git commit -m {note} : chính thức lưu
 
 - git log : coi những thời điểm chúng ta đã lưu
 
 - git log --oneline : giống git log nhưng nhìn gọn hơn 
 
-- git checkout ' branch name ' : trở lại branch
+- git checkout {name branch} : trở lại branch
 
 - git check out id_commit : trở lại thời điểm ban đầu
 
 - git branch : thấy được cành hiện tại
 
-- git checkout -b {ten_branch} : để tạo ra 1 branch mới 
+- git checkout -b {name branch} : để tạo ra 1 branch mới 
 
-- git merge ten_cac_branch : tổng hợp các branch với nhau
+- git merge {name branch} : tổng hợp các branch với nhau
 
-- git branch -d ten_branch : xóa đi branch
+- git branch -d {name branch} : xóa đi branch
 
-- git push duong_huong_dan ten_branch: đẩy local repo lên remote repo
+- git push {repo url} {name branch}: đẩy local repo lên remote repo
 
-- git remote add origin duong_huong_dan : đường hướng dẫn này có tên là 'origin'
+- git remote add origin {repo url} : đường hướng dẫn này có tên là 'origin'
 
-- git clone duong_huong_dan : tải thư mục trên github về
+- git clone {repo url} : tải thư mục trên github về
 
-- git push -u origin name_branch : đẩy branch lên github
+- git push -u origin {name branch} : đẩy branch lên github
 
 - git fetch origin 
-- git checkout -b name_branch origin/name_branch 
+- git checkout -b {name branch} origin/{name branch} : lấy branch từ remote về local
+
+- git pull : lấy thay đổi master merger branch trên github về local
 

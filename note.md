@@ -2,7 +2,7 @@
 
 Repository (Repo) : hiện tại thư mục dự án của chúng ta mang tên GITHUB.VN  là 1 Repository
 
-Brand (cành ,  nhánh) : 1 dự án có nhiều cành khác nhau và cành mặc định của chúng là ' master '
+Branch (cành ,  nhánh) : 1 dự án có nhiều cành khác nhau và cành mặc định của chúng là ' master '
 
 Conflict (Xung đột) 
 

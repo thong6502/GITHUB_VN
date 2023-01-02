@@ -29,7 +29,7 @@ remote : những dữ liệu nằm trên 1 sever khác
 
 - git checkout {name branch} : trở lại branch
 
-- git check out id_commit : trở lại thời điểm ban đầu
+- git checkout id_commit : trở lại thời điểm ban đầu
 
 - git branch : thấy được cành hiện tại
 

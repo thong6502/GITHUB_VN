@@ -37,7 +37,7 @@ remote : những dữ liệu nằm trên 1 sever khác
 
 - git merge {name branch} : tổng hợp các branch với nhau
 
-- git branch -d {name branch} : xóa đi branch
+- git branch -D {name branch} : xóa đi branch
 
 - git push {repo url} {name branch}: đẩy local repo lên remote repo
 

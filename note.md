@@ -41,7 +41,7 @@ remote : những dữ liệu nằm trên 1 sever khác
 
 - git push {repo url} {name branch}: đẩy local repo lên remote repo
 
-- git remote add origin {repo url} : đường hướng dẫn này có tên là 'origin'
+- git remote add origin {repo url} : liên kết remote repository với local repository
 
 - git clone {repo url} : tải thư mục trên github về
 

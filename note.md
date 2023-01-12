@@ -41,11 +41,14 @@ remote : những dữ liệu nằm trên 1 sever khác
 
 - git push {repo url} {name branch}: đẩy local repo lên remote repo
 
-- git remote add origin {repo url} : liên kết remote repository với local repository
+- git remote add origin {repo url} : có remote tên là origin và cái url của nó là cái repo url
+
+- git push -u origin {name branch} : đẩy branch lên github
+
+- git remote rm origin : xóa url của origin hiện tại
 
 - git clone {repo url} : tải thư mục trên github về
 
-- git push -u origin {name branch} : đẩy branch lên github
 
 - git fetch origin 
 - git checkout -b {name branch} origin/{name branch} : lấy branch từ remote về local
